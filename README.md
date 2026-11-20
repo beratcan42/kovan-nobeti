@@ -11,10 +11,11 @@ Godot 4.7 ile yapılmış üçüncü şahıs hayatta kalma oyunu [yusufipk/kovan
 * **Hikaye Ekranı ve Arayüz:** İlk açılışta otomatik açılan ve ana menüdeki **Hikaye** sekmesinden tekrar okunabilen *Kovanın Hikayesi* eklendi; sürüm bilgisi (`v1.1`) Ayarlar ve Duraklatıldı ekranlarına işlendi; tüm **Arılık** metinleri **Arıcılık** olarak güncellendi.
 * **Kod ve Performans Temizliği:** Spatial hash tabanlı `nearest()`, önbellekli boss/şampiyon indeksleri, sandık/kavanoz bellek temizliği, değişken gölgeleme ve HUD taşma düzeltmeleri yapıldı.
 
-## Kaynaktan Çalıştırma
+## İndir
 
-1. Klasörü **Godot 4.7** ile aç.
-2. `F5` tuşuna basarak oyunu başlat.
+[Releases](https://github.com/beratcan42/kovan-nobeti/releases/tag/v1.1) sayfasından Windows için `KovanNobeti_v1.1.exe` , Linux için `KovanNobeti_v1.1.x86_64` dosyasını indir. Linux'ta önce `chmod +x KovanNobeti_v1.1.x86_64` .
+
+Kaynaktan çalıştırmak için klasörü **Godot 4.7** ile aç ve `F5`'e bas.
 
 *(İlk açılış hikaye ekranını tekrar görmek için `user://kovan_nobeti.json` dosyasındaki `"hikaye_goruldu"` alanını `false` yapabilirsin.)*
 
